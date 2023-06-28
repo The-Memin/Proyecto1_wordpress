@@ -1,0 +1,15 @@
+/*
+Theme Name: Theme 1
+Author: The-Memin
+Author URI: https://github.com/The-Memin
+Description: un tema muy bonito 
+Version: 1.0
+Tags: black, simple.
+*/
+
+.suscribir{
+    background: url(images/bg.svg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}

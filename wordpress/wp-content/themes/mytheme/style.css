@@ -1,0 +1,166 @@
+/*
+Theme Name: My Theme
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Author: The-Memin
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Requires at least: 6.1
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: twentytwentythree
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
+*/
+
+/* body{
+    background-color: red;
+} */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.suscribir{
+    background: url(images/bg.svg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    padding-top: 2em;
+}
+
+.diagonal-gradient {
+    background: linear-gradient(to bottom right, blue, rgb(255, 255, 255)),linear-gradient(to right bottom, rgb(233, 81, 58), rgb(0, 0, 0));
+    background: linear-gradient(
+        217deg,
+        rgba(255, 0, 0, 0.8),
+        rgba(255, 255, 255, 0) 70.71%
+      ), linear-gradient(127deg, blue, white 100%);
+}
+
+.container-header{
+    color: white;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+}
+.nav-principal{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+
+.header-contain{
+    width: 6;
+    display: grid;
+    grid-template-columns: .6fr .5fr;
+    margin-top: 6em;
+    gap: 150px;
+}
+
+.header-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main h1{
+    font-size: 80px;
+}
+
+.header-main p{
+    font-size: 18px;
+}
+
+.header-img{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    border: 15px solid white;
+    border-radius: 200px 200px 50px 50px;
+    background: linear-gradient(to left top, rgb(92, 92, 234), rgb(245, 243, 244));
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    -webkit-box-shadow: 22px 47px 159px -59px rgba(0,0,0,1);
+    -moz-box-shadow: 22px 47px 159px -59px rgba(0,0,0,1);
+    box-shadow: 22px 47px 159px -59px rgba(0,0,0,1);
+    top: 7em;
+}
+
+.header-img img{
+    width: 5000px;
+    height: 540px;
+    object-fit:cover;   
+}
+
+.header-main__links{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgb(154, 154, 154);
+}
+.btn-yellow{
+    color: black;
+    background: linear-gradient(70deg, rgb(255, 174, 0), rgb(255, 248, 205));
+    padding: 15px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 40px 138px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 40px 138px 3px rgba(0,0,0,0.75);
+    box-shadow: 7px 40px 138px 3px rgba(0,0,0,0.75);
+}
+
+.btn-watch img{
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.btn-watch{
+    display: flex;
+    gap: 10px;
+    align-items:center;
+}
+
+.container-header__footer{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.header-footer{
+    margin-top: 4em;
+    background: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(223, 223, 223));
+    max-height: 80px;
+}
+.header-footer__img{
+    height: 80px;
+}
+
+.crown{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(70, 84, 237);
+    cursor: pointer;
+}
